@@ -18,13 +18,13 @@ public class Account {
     private boolean gender;
     private String phone;
     private String email;
-    private String addess;
+    private String address;
     private Role role;
 
     public Account() {
     }
 
-    public Account(int accountID, String username, String password, String firstName, String lastName, boolean gender, String phone, String email, String addess, Role role) {
+    public Account(int accountID, String username, String password, String firstName, String lastName, boolean gender, String phone, String email, String address, Role role) {
         this.accountID = accountID;
         this.username = username;
         this.password = password;
@@ -33,7 +33,7 @@ public class Account {
         this.gender = gender;
         this.phone = phone;
         this.email = email;
-        this.addess = addess;
+        this.address = address;
         this.role = role;
     }
 
@@ -101,12 +101,12 @@ public class Account {
         this.email = email;
     }
 
-    public String getAddess() {
-        return addess;
+    public String getAddress() {
+        return address;
     }
 
-    public void setAddess(String addess) {
-        this.addess = addess;
+    public void setAddress(String address) {
+        this.address = address;
     }
 
     public Role getRole() {
@@ -119,7 +119,7 @@ public class Account {
 
     @Override
     public String toString() {
-        return "Account{" + "accountID=" + accountID + ", username=" + username + ", password=" + password + ", firstName=" + firstName + ", lastName=" + lastName + ", gender=" + gender + ", phone=" + phone + ", email=" + email + ", addess=" + addess + ", role=" + role + '}';
+        return "Account{" + "accountID=" + accountID + ", username=" + username + ", password=" + password + ", firstName=" + firstName + ", lastName=" + lastName + ", gender=" + gender + ", phone=" + phone + ", email=" + email + ", addess=" + address + ", role=" + role + '}';
     }
 
 
