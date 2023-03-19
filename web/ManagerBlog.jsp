@@ -37,7 +37,6 @@
                 <table class="table table-striped table-hover">
                     <thead>
                         <tr>
-                            
                             <th>BlogID</th>
                             <th>Title</th>
                             <th>Content</th>

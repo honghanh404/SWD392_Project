@@ -17,6 +17,7 @@
         <servlet-class>controller.LogoutServlet</servlet-class>
     </servlet>
     <servlet>
+
         <servlet-name>ViewRequest</servlet-name>
         <servlet-class>controller.ViewRequest</servlet-class>
     </servlet>
@@ -27,6 +28,22 @@
     <servlet>
         <servlet-name>ReportView</servlet-name>
         <servlet-class>controller.ReportView</servlet-class>
+
+        <servlet-name>UserBlogServlet</servlet-name>
+        <servlet-class>controller.UserBlogServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>RequestManagementController</servlet-name>
+        <servlet-class>controller.RequestManagementController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AddRequestController</servlet-name>
+        <servlet-class>controller.AddRequestController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DeleteRequestController</servlet-name>
+        <servlet-class>controller.DeleteRequestController</servlet-class>
+
     </servlet>
     <servlet-mapping>
         <servlet-name>LoginServlet</servlet-name>
@@ -45,6 +62,7 @@
         <url-pattern>/logout</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
+
         <servlet-name>ViewRequest</servlet-name>
         <url-pattern>/ViewRequest</url-pattern>
     </servlet-mapping>
@@ -55,6 +73,22 @@
     <servlet-mapping>
         <servlet-name>ReportView</servlet-name>
         <url-pattern>/ReportView</url-pattern>
+
+        <servlet-name>UserBlogServlet</servlet-name>
+        <url-pattern>/userblog</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RequestManagementController</servlet-name>
+        <url-pattern>/request</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AddRequestController</servlet-name>
+        <url-pattern>/addrequest</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DeleteRequestController</servlet-name>
+        <url-pattern>/deleterequest</url-pattern>
+
     </servlet-mapping>
     <session-config>
         <session-timeout>
